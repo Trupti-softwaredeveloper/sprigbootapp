@@ -27,4 +27,10 @@ public class ApplicationController {
     {
         return "Software Development";
     }
+
+    @GetMapping("/payment")
+    public String paymentservice()
+    {
+        return "Welcome to FINTECH CSI payment Service";
+    }
 }
