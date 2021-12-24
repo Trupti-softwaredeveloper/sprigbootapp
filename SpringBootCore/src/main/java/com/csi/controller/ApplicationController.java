@@ -20,4 +20,11 @@ public class ApplicationController {
     {
         return "Inspiria Mall |Pune";
     }
+
+
+    @GetMapping("/services")
+    public String services()
+    {
+        return "Software Development";
+    }
 }
